@@ -12,11 +12,4 @@ public class GogoinWebApplication {
 		SpringApplication.run(GogoinWebApplication.class, args);
 	}
 
-//	@Bean
-//	public ViewResolver viewResolver() {
-//		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-//		resolver.setPrefix("/WEB-INF/jsp/");
-//		resolver.setSuffix(".jsp");
-//		return resolver;
-//	}
 }
