@@ -4,6 +4,9 @@ public class UserModel {
 	private Integer id;
 	private String uname;
 
+	public UserModel() {
+	}
+
 	public UserModel(Integer id, String uname) {
 		this.id = id;
 		this.uname = uname;

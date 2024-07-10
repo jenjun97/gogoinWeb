@@ -16,13 +16,15 @@ public class UserController {
 
 	@GetMapping("/home/request")
 	public String showRequestForm() {
-		return "home/request";
+		System.out.println("UserController.showRequestForm()");
+		return "users/request";
 	}
 
 	@PostMapping("/home/reply")
 	public String processRequest(@RequestParam Integer id, Model model) {
+		System.out.println("UserController.processRequest()");
 		List<UserModel> userModelList = userService.getUserById(id);
-		model.addAttribute("user", userModelList);
-		return "home/reply";
+		model.addAttribute("users", userModelList);
+		return "users/reply";
 	}
 }

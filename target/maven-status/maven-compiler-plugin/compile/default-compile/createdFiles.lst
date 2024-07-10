@@ -1,2 +1,7 @@
+com\gogoinWeb\users\UserController.class
+com\gogoinWeb\users\UserModel.class
+com\gogoinWeb\users\UserDao.class
+com\gogoinWeb\database\DatabaseConfig.class
 com\gogoinWeb\HomeController.class
 com\gogoinWeb\GogoinWebApplication.class
+com\gogoinWeb\users\UserService.class
